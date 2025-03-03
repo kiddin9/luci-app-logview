@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: luci-app-tn-logview\n"
+"Project-Id-Version: luci-app-logview\n"
 "POT-Creation-Date: 2020-02-24 06:07+0300\n"
 "PO-Revision-Date: 2020-11-24 19:21+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
@@ -48,15 +48,15 @@ msgstr "Не удалось загрузить журнал (код ошибки
 msgid "Failed to parse JSON"
 msgstr "Не удалось выполнить разбор JSON"
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-logview.json:3
+#: root/usr/share/rpcd/acl.d/luci-app-logview.json:3
 msgid "Grant access to logs viewer"
 msgstr "Предоставить доступ к просмотру журналов"
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-logview.json:15
+#: root/usr/share/rpcd/acl.d/luci-app-logview.json:15
 msgid "Grant access to view kernel log (dmesg)"
 msgstr "Предоставить доступ к просмотру журнала ядра (dmesg)"
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-logview.json:23
+#: root/usr/share/rpcd/acl.d/luci-app-logview.json:23
 msgid "Grant access to view system log (syslog)"
 msgstr "Предоставить доступ к просмотру системного журнала (syslog)"
 
@@ -85,7 +85,7 @@ msgstr "Записи журнала"
 msgid "Log is empty"
 msgstr "Журнал не содержит записей"
 
-#: root/usr/share/luci/menu.d/luci-app-tn-logview.json:3
+#: root/usr/share/luci/menu.d/luci-app-logview.json:3
 msgid "Logs"
 msgstr "Журналы"
 

@@ -4,7 +4,7 @@ return L.Class.extend({
 	title: _('System Log'),
 	description: '',
 	order: 2,
-	acl: 'luci-app-tn-logview-syslog',
+	acl: 'luci-app-logview-syslog',
 	json_data: {
 		add_to_downloads: true,
 		action: {

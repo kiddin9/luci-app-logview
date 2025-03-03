@@ -7,7 +7,7 @@
 			"path": "status/logview"
 		},
 		"depends": {
-			"acl": [ "luci-app-tn-logview" ]
+			"acl": [ "luci-app-logview" ]
 		}
 	}
 }

@@ -38,15 +38,15 @@ msgstr ""
 msgid "Failed to parse JSON"
 msgstr ""
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-logview.json:3
+#: root/usr/share/rpcd/acl.d/luci-app-logview.json:3
 msgid "Grant access to logs viewer"
 msgstr ""
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-logview.json:15
+#: root/usr/share/rpcd/acl.d/luci-app-logview.json:15
 msgid "Grant access to view kernel log (dmesg)"
 msgstr ""
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-logview.json:23
+#: root/usr/share/rpcd/acl.d/luci-app-logview.json:23
 msgid "Grant access to view system log (syslog)"
 msgstr ""
 
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Log is empty"
 msgstr ""
 
-#: root/usr/share/luci/menu.d/luci-app-tn-logview.json:3
+#: root/usr/share/luci/menu.d/luci-app-logview.json:3
 msgid "Logs"
 msgstr ""
 

@@ -1,14 +1,14 @@
 'use strict';
 
 return L.Class.extend({
-	title: _('Scheduled Tasks (cron)'),
+	title: _('VRRP'),
 	description: '',
-	order: 3,
-	acl: 'luci-app-tn-logview-cron',
+	order: 20,
+	acl: 'luci-app-logview-keepalived',
 	json_data: {
 		add_to_downloads: true,
 		action: {
-			command: '/usr/libexec/luci-logview/logview-cron',
+			command: '/usr/libexec/luci-logview/logview-keepalived',
 			command_args: [ 'json' ]
 		}
 	},
@@ -18,7 +18,7 @@ return L.Class.extend({
 			mime_type: 'text/plain',
 			extension: 'txt',
 			action: {
-				command: '/usr/libexec/luci-logview/logview-cron',
+				command: '/usr/libexec/luci-logview/logview-keepalived',
 				command_args: [ 'plain' ]
 			}
 		},
@@ -27,7 +27,7 @@ return L.Class.extend({
 			mime_type: 'text/csv',
 			extension: 'csv',
 			action: {
-				command: '/usr/libexec/luci-logview/logview-cron',
+				command: '/usr/libexec/luci-logview/logview-keepalived',
 				command_args: [ 'csv' ]
 			}
 		}
@@ -36,7 +36,6 @@ return L.Class.extend({
 		{ name: 'timestamp', display: _('Timestamp') },
 		{ name: 'tag', display: _('Tag') },
 		{ name: 'priority', display: _('Priority') },
-		{ name: 'facility', display: _('Facility') },
 		{ name: 'message', display: _('Message') }
 	]
 });

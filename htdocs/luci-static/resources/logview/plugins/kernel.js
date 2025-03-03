@@ -4,7 +4,7 @@ return L.Class.extend({
 	title: _('Kernel Log'),
 	description: '',
 	order: 1,
-	acl: 'luci-app-tn-logview-kernel',
+	acl: 'luci-app-logview-kernel',
 	json_data: {
 		add_to_downloads: true,
 		action: {

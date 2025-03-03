@@ -4,7 +4,7 @@ return L.Class.extend({
 	title: _('SNMP'),
 	description: '',
 	order: 10,
-	acl: 'luci-app-tn-logview-snmpd',
+	acl: 'luci-app-logview-snmpd',
 	json_data: {
 		add_to_downloads: true,
 		action: {
